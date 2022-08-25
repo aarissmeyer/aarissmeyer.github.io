@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #505253;
+  background-color: #e1e4e9;
+  display: inline-block;
+  width: 100%;
+  font-family: "Lato";
+}
+
+#intro-section {
+  display: grid;
+  grid-template-columns: 1fr 90% 1fr;
+  grid-template-rows: 10% 20% 50% 20%;
+  background-image: url("tundy.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #e1e4e9;
+  margin-bottom: 100px;
+}
+
+#buttons {
+  grid-column: 1/-1;
+  justify-self: end;
+  display: flex;
+  margin-top: 20px;
+  margin-right: 60px;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.contact-icon:link,
+.contact-icon:visited {
+  height: 20px;
+  cursor: pointer;
+}
+
+#mail-img {
+  height: 25px;
+}
+
+#linkedin-img {
+  height: 25px;
+}
+
+#greeting {
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 62px;
+  font-weight: 400;
+  align-self: end;
+  /* margin-bottom: 10px; */
+}
+
+#intro-block {
+  grid-row: 3;
+  grid-column: 2/3;
+  background-color: #38333692;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 20px;
+
+  display: grid;
+  row-gap: 40px;
+}
+
+#me {
+  align-self: end;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  font-family: "Crimson Text";
+}
+
+.page-btn:link,
+.page-btn:visited {
+  font-size: 24px;
+  color: #c16200;
+  text-decoration: none;
+}
+
+.page-btn:hover,
+.page-btn:active {
+  font-weight: 600;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 200px;
+}
+
+#last-proj {
+  margin-bottom: 10px;
+}
+
+.proj-text {
+  align-self: center;
+}
+
+.proj-label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.proj-desc {
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.proj-label,
+.proj-btn {
+  font-family: "Crimson Text";
+}
+
+.proj-btn:link,
+.proj-btn:visited {
+  font-size: 24px;
+  color: #c16200;
+  text-decoration: none;
+}
+
+.proj-btn:hover,
+.proj-btn:active {
+  font-weight: 600;
+}
+
+.proj-img {
+  height: 90vh;
+  justify-self: center;
+}
+
+#top-container {
+  margin-left: 60px;
+  margin-bottom: 40px;
+  font-family: "Crimson Text";
+  font-size: 24px;
+}
+
+#top:link,
+#top:visited {
+  color: #c16200;
+  text-decoration: none;
+}
+
+#top:hover,
+#top:active {
+  font-weight: 600;
+}
