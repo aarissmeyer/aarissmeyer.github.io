@@ -76,20 +76,21 @@ body {
 
 #me {
   align-self: end;
-  font-size: 28px;
+  justify-self: center;
+  font-size: 2vw;
   font-weight: 300;
 }
 
 #links {
   display: flex;
-  justify-content: center;
+  justify-self: center;
   gap: 80px;
   font-family: "Crimson Text";
 }
 
 .page-btn:link,
 .page-btn:visited {
-  font-size: 24px;
+  font-size: 2vw;
   color: #c16200;
   text-decoration: none;
 }
