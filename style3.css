@@ -42,7 +42,9 @@ body {
 
 #intro-container {
   display: grid;
-  height: 40vw;
+  align-items: center;
+  justify-content: center;
+  height: 30vw;
   grid-template-columns: 3fr 2fr;
   margin-left: 60px;
   margin-right: 60px;
@@ -52,19 +54,20 @@ body {
 .label {
   font-family: "Crimson Text";
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 1.3vw;
 }
 
 #about-me {
   margin-bottom: 20px;
   font-weight: 500;
   line-height: 40px;
+  font-size: 1.8vw;
 }
 
 .links:link,
 .links:visited {
   font-family: "Crimson Text";
-  font-size: 20px;
+  font-size: 1.6vw;
   color: #c16200;
   text-decoration: none;
 }
