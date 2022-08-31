@@ -61,7 +61,7 @@ body {
   margin-bottom: 20px;
   font-weight: 500;
   line-height: 40px;
-  font-size: 1.8vw;
+  font-size: 2.1vw;
 }
 
 .links:link,
@@ -80,6 +80,8 @@ body {
 #challenge-cont,
 #solution-cont {
   display: grid;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: 2fr 2fr;
   height: 40vw;
   line-height: 40px;
@@ -91,6 +93,8 @@ body {
   padding: 50px 40px;
   border-radius: 20px;
   column-gap: 50px;
+  font-size: 1.3vw;
+  font-weight: 500;
 }
 
 #info-cont {
@@ -106,6 +110,8 @@ body {
   border-radius: 20px;
   column-gap: 50px;
   row-gap: 120px;
+  font-size: 1.3vw;
+  font-weight: 500;
 }
 
 #solution-cont {
