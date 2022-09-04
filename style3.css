@@ -43,7 +43,8 @@ body {
 #intro-container {
   display: grid;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
+  column-gap: 10px;
   height: 30vw;
   grid-template-columns: 3fr 2fr;
   margin-left: 60px;
@@ -81,7 +82,7 @@ body {
 #solution-cont {
   display: grid;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
   grid-template-columns: 2fr 2fr;
   height: 40vw;
   line-height: 40px;
@@ -99,6 +100,8 @@ body {
 
 #info-cont {
   display: grid;
+  align-items: center;
+  justify-items: center;
   grid-template-columns: 2fr 2fr;
   line-height: 40px;
   margin-left: 20px;
@@ -147,4 +150,49 @@ body {
   width: 70%;
   margin-top: 10px;
   margin-bottom: 70px;
+}
+
+.desc-img {
+  width: 40vw;
+}
+
+#logo {
+  height: 25vw;
+  width: auto;
+}
+
+#toggle {
+  height: 30vw;
+  width: 27vw;
+}
+
+.iphone {
+  border-radius: 30px;
+  height: 38vw;
+  width: auto;
+}
+
+#sun-chal {
+  height: 30vw;
+  width: auto;
+}
+
+h5 {
+  font-weight: 300;
+  font-size: 0.8vw;
+}
+
+#del {
+  width: 33vw;
+}
+
+#eco {
+  height: 32vw;
+  width: auto;
+}
+
+.iphone2 {
+  border-radius: 20px;
+  height: 38vw;
+  width: auto;
 }
